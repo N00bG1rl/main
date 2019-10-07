@@ -163,8 +163,9 @@ a:hover, a:focus {
 .contact .info span.icon {
     /* color: #47A3DA; */
     /* color: #e74c3c; */
-    color: #00c077;
+   /*  color: #00c077; */
     /* color: #D80D1D; */
+    color: #F2D271;
 }
 
 .home_type .more_info a:hover,
@@ -174,7 +175,8 @@ a.rslides_nav.rslides1_nav:hover,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
 .contact .contact_form .submit:hover {
-    background-color: #00c077;
+    /* background-color: #00c077; */
+    background-color: #F2D271;
 }
 
 .contact .contact_form .submit,
@@ -185,11 +187,13 @@ li.active_filter:after,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
 .contact .contact_form .submit:hover {
-    border-color: #00c077;
+    /* border-color: #00c077; */
+    border-color: #F2D271;
 }
 
 g.Header {
-    stroke: #00c077;
+    /* stroke: #00c077; */
+    stroke: #F2D271;
 }
 
 .pt-page {
@@ -259,31 +263,36 @@ g.Header {
 }
 
 /* Home */
-
 .home_type .side {
-    background-image: url("../images/home_personal.png");
+    background-image: url("../images/403bg6.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.home_type .side .overlayer {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
-    position: relative;
-    z-index: 11;
+.home_type h1 svg {
+    margin: 50px;
 }
 
-.main-logo {color:#D80D1D;}
+.home_type .side .overlayer {
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+/*     position: relative;
+    z-index: 11; */
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    right: 0;
+}
 
 .typed-wrapper {
     width: 100%;
 }
 
 .typed-wrapper h1 {
-    margin: 30px;
+    margin: 40px;
 }
 .home_type .side h1 {
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 45px;
     position: relative;
@@ -323,8 +332,8 @@ g.Header {
     color: #fff;
     font-size: 12px;
     font-weight: 500;
-    margin-top: 30px;
-    margin-right: 18px;
+    margin: 40px 18px;
+    /* margin-right: ; */
     transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
 }
