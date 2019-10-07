@@ -5,8 +5,6 @@
 
 @media(min-width:992px)
 {
-
-
 	.home_type {
 		display: block !important;
 	}
@@ -22,6 +20,9 @@
 
 	.side-right {
 		height: 100% !important;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		-webkit-touch-overflow: scroll;
 	}
 
 	.skills .item .skill:last-of-type {
@@ -84,14 +85,16 @@
 
 	.side-right {
 		overflow: auto;
-	    position: fixed;
-	    top: 62px;
-	    right: -305px;
-	    z-index: 55;
+		-webkit-overflow-scrolling: touch;
+		-webkit-touch-overflow: scroll;
+	  position: fixed;
+	  top: 62px;
+	  right: -305px;
+	  z-index: 55;
 		text-align: center;
 		padding-top: 50px;
 		width: 300px;
-	    height: calc(100vh - 62px);
+	  height: calc(100vh - 62px);
 		transition: all ease-in-out 0.5s;
 		-webkit-transition: all ease-in-out 0.5s;
 	}
