@@ -142,7 +142,7 @@ section .container {
     display: table-cell;
     vertical-align: middle;
     position: relative;
-    z-index: 10;
+   /*  z-index: 10; */
 }
 
 a:hover, a:focus {
@@ -161,11 +161,8 @@ a:hover, a:focus {
 .portfolio_sec  .item .info p,
 .zoom-anim-dialog .project_info span,
 .contact .info span.icon {
-    /* color: #47A3DA; */
-    /* color: #e74c3c; */
-   /*  color: #00c077; */
-    /* color: #D80D1D; */
-    color: #F2D271;
+    color: #0B8C07;
+    /* color: #F2D271; */
 }
 
 .home_type .more_info a:hover,
@@ -175,8 +172,8 @@ a.rslides_nav.rslides1_nav:hover,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
 .contact .contact_form .submit:hover {
-    /* background-color: #00c077; */
-    background-color: #F2D271;
+    background-color: #0B8C07;
+    /* background-color: #F2D271; */
 }
 
 .contact .contact_form .submit,
@@ -187,13 +184,13 @@ li.active_filter:after,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
 .contact .contact_form .submit:hover {
-    /* border-color: #00c077; */
-    border-color: #F2D271;
+    border-color: #0B8C07;
+    /* border-color: #F2D271; */
 }
 
 g.Header {
-    /* stroke: #00c077; */
-    stroke: #F2D271;
+    stroke: #0B8C07;
+    /* stroke: #F2D271; */
 }
 
 .pt-page {
@@ -269,9 +266,7 @@ g.Header {
     background-position: center;
 }
 
-.home_type h1 svg {
-    margin: 50px;
-}
+
 
 .home_type .side .overlayer {
     background-color: rgba(0, 0, 0, .7);
@@ -279,7 +274,6 @@ g.Header {
 /*     position: relative;
     z-index: 11; */
     position: absolute;
-    z-index: 11;
     left: 0;
     top: 0;
     right: 0;
@@ -296,13 +290,16 @@ g.Header {
     font-weight: bold;
     font-size: 45px;
     position: relative;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .home_type .side h1 .typed-cursor {
     font-weight: 100;
 }
-
+.typed-wrapper h1 svg {
+    margin: 50px;
+    width: 40%;
+}
 .home_type .more_info {
     display: inline-block;
     text-align: center;
@@ -327,6 +324,8 @@ g.Header {
 
 .home_type .more_info a {
     display: inline-block;
+    position: relative;
+    z-index: 9999;
     padding: 8px 20px;
     border: 2px solid #fff;
     color: #fff;
