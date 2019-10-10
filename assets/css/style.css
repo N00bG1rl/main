@@ -264,16 +264,25 @@ g.Header {
     background-image: url("../images/403bg6.jpg");
     background-size: cover;
     background-position: center;
-}
 
+    
+}
+@media only screen and (min-width: 991px) {
+    .home_type .side {
+        min-height: 100%;
+        overflow: auto;
+    }
+}
 
 
 .home_type .side .overlayer {
     background-color: rgba(0, 0, 0, .7);
     height: 100%;
-/*     position: relative;
-    z-index: 11; */
-    position: absolute;
+    min-height: 800px;
+     position: relative;
+     overflow: hidden;
+   /* z-index: 11; */
+    /* position: absolute; */
     left: 0;
     top: 0;
     right: 0;
