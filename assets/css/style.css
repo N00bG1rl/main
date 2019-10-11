@@ -140,7 +140,7 @@ section .container {
 
 .display-table-cell {
     display: table-cell;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     position: relative;
    /*  z-index: 10; */
 }
@@ -161,8 +161,14 @@ a:hover, a:focus {
 .portfolio_sec  .item .info p,
 .zoom-anim-dialog .project_info span,
 .contact .info span.icon {
-    color: #0B8C07;
+    /* color: #0B8C07; */
     /* color: #F2D271; */
+    /* background-image: linear-gradient(to left, rgba(230, 27, 37), rgba(214, 59, 217), rgba(55, 3, 166), rgba(242, 210, 113) rgba(11, 140, 7));
+    -webkit-background-clip: text;
+    color: transparent; */
+    background-image: linear-gradient(to left, #E61B25, #F2D271);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .home_type .more_info a:hover,
@@ -172,8 +178,14 @@ a.rslides_nav.rslides1_nav:hover,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
 .contact .contact_form .submit:hover {
-    background-color: #0B8C07;
+    /* background-color: #0B8C07; */
     /* background-color: #F2D271; */
+    /* background-image: linear-gradient(to left, rgba(230, 27, 37), rgba(214, 59, 217), rgba(55, 3, 166), rgba(242, 210, 113) rgba(11, 140, 7));
+    -webkit-background-clip: text;
+    color: transparent; */
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .contact .contact_form .submit,
@@ -184,13 +196,19 @@ li.active_filter:after,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
 .contact .contact_form .submit:hover {
-    border-color: #0B8C07;
+   /*  border-color: #0B8C07; */
     /* border-color: #F2D271; */
+    background-image: linear-gradient(to left, #E61B25, #F2D271);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 g.Header {
-    stroke: #0B8C07;
+    /* stroke: #0B8C07; */
     /* stroke: #F2D271; */
+    background-image: linear-gradient(to left, #E61B25, #F2D271);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .pt-page {
@@ -291,7 +309,7 @@ g.Header {
 
 .typed-wrapper {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 340px;
 }
 
 .typed-wrapper h1 {
@@ -697,6 +715,7 @@ End About Section*/
     position: relative;
     font-size: 12px;
     font-weight: 600;
+    color: #999;
     margin-right: 5px;
     letter-spacing: 0.5px;
     cursor: pointer;
@@ -718,8 +737,8 @@ End About Section*/
     transition: all 0.3s ease-in-out;
     transform: scale(0);
 }
-
-li.active_filter {
+.portfolio_sec .ul-filter li:hover,
+.portfolio_sec .ul-filter li.active_filter {
     color: #000;
 }
 
