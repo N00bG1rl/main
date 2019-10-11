@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "assets/images/403.png",
+          "src": "assets/images/403mini.png",
           "width": 100,
           "height": 100
         }
@@ -73,7 +73,7 @@ particlesJS('particles-js',
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "bounce",
+        "out_mode": "out",
         "attract": {
           "enable": false,
           "rotateX": 600,

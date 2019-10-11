@@ -162,16 +162,10 @@ a:hover, a:focus {
 .zoom-anim-dialog .project_info span,
 .contact .info span.icon {
     /* color: #0B8C07; */
-    /* color: #F2D271; */
-    /* background-image: linear-gradient(to left, rgba(230, 27, 37), rgba(214, 59, 217), rgba(55, 3, 166), rgba(242, 210, 113) rgba(11, 140, 7));
-    -webkit-background-clip: text;
-    color: transparent; */
-    background-image: linear-gradient(to left, #E61B25, #F2D271);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #F2D271;
 }
 
-.home_type .more_info a:hover,
+/* .home_type .more_info a:hover, */
 .skills .skill div span, .date:after,
 a.rslides_nav.rslides1_nav:hover,
 .services .font-icon i,
@@ -179,17 +173,11 @@ li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
 .contact .contact_form .submit:hover {
     /* background-color: #0B8C07; */
-    /* background-color: #F2D271; */
-    /* background-image: linear-gradient(to left, rgba(230, 27, 37), rgba(214, 59, 217), rgba(55, 3, 166), rgba(242, 210, 113) rgba(11, 140, 7));
-    -webkit-background-clip: text;
-    color: transparent; */
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    color: transparent;
+   background-color: #F2D271;
 }
 
 .contact .contact_form .submit,
-.home_type .more_info a:hover,
+/* .home_type .more_info a:hover, */
 .testimonials .arrows span:hover,
 .fun-facts h4, .item,
 .services .font-icon i,
@@ -197,19 +185,15 @@ li.active_filter:after,
 .form-control:focus,
 .contact .contact_form .submit:hover {
    /*  border-color: #0B8C07; */
-    /* border-color: #F2D271; */
-    background-image: linear-gradient(to left, #E61B25, #F2D271);
-    -webkit-background-clip: text;
-    color: transparent;
+   border-color: #F2D271;
 }
 
 g.Header {
     /* stroke: #0B8C07; */
-    /* stroke: #F2D271; */
-    background-image: linear-gradient(to left, #E61B25, #F2D271);
-    -webkit-background-clip: text;
-    color: transparent;
+    stroke: #F2D271;
+    
 }
+
 
 .pt-page {
     width: 100%;
@@ -309,14 +293,14 @@ g.Header {
 
 .typed-wrapper {
     width: 100%;
-    margin-top: 340px;
+    margin-top: 390px;
 }
 
 .typed-wrapper h1 {
     margin: 40px;
 }
 .home_type .side h1 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 45px;
     position: relative;
     /* z-index: 10; */
@@ -472,7 +456,7 @@ g.Header {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.34),-1px 1px 1px rgba(0, 0, 0, 0.34);
 }
 .intro-content {
-    top: 300px;
+    top: 410px;
 }
 .intro-content h1 {
     margin-top: 30px;
