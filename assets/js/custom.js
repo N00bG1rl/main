@@ -244,6 +244,17 @@ $(function () {
         });
 
     }
+    var service_slide = '.service_slide';
+
+    if ( $(service_slide).length ) {
+
+        $(service_slide).responsiveSlides({
+            nav: true,
+            prevText: '<i class="pe-7s-angle-left"></i>',
+            nextText: '<i class="pe-7s-angle-right"></i>'
+        });
+
+    }
 
     /* Form Validation */
     $('.contact form .submit').on('click', function () {
@@ -455,7 +466,7 @@ $(function () {
     }
 
     /* Jquery.mb.YTPlayer Plugin */
-    if ($("#bgndVideo").length){
+    /* if ($("#bgndVideo").length){
 
         jQuery("#bgndVideo").YTPlayer({
             autoPlay:true,
@@ -464,7 +475,7 @@ $(function () {
             opacity: 1
         });
 
-    }
+    } */
 
 });
 

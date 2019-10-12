@@ -26,7 +26,7 @@ particlesJS('particles-js',
         "value": "random"
       },
       "shape": {
-        "type": "image",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#888888"
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "assets/images/403mini.png",
+          "src": "assets/images/403white.png",
           "width": 100,
           "height": 100
         }
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 9,
+        "value": 6,
         "random": true,
         "anim": {
           "enable": false,
