@@ -53,10 +53,13 @@
 		height: 0 !important;
 		margin: 0;
 		padding: 0;
+		
+		overflow: hidden;
 	}
 
 	.page-right-normal-height {
 		/* height: calc(100vh - 62px) !important; */
+
 		height: 100vh !important;
 	}
 
@@ -65,7 +68,9 @@
 		overflow-y: auto;
 		overflow-x: hidden;
 			/* height: calc(100vh - 62px) !important; */
+
 			height: 100vh !important;
+
 	    position: relative;
 	    z-index: 10;
 	}
