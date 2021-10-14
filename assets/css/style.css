@@ -61,6 +61,10 @@ h3.subtitle svg {
     left: 0;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 g.Web {
     opacity: 1;
 }
@@ -150,9 +154,9 @@ a:hover, a:focus {
     outline: none;
 }
 
-/*Main Color*/
+/* Main Color */
 .home_type .side #typed,
-.menu a:hover,
+.menu .social-icons a:hover,
 .menu .active_item,
 .mob-menu .menu-title,
 .menu .menu_list li a:hover,
@@ -161,39 +165,37 @@ a:hover, a:focus {
 .portfolio_sec  .item .info p,
 .zoom-anim-dialog .project_info span,
 .contact .info span.icon {
-    /* color: #0B8C07; */
-    color: #F2D271;
+    color: #00c077;
 }
 
-/* .home_type .more_info a:hover, */
-.skills .skill div span, .date:after,
-a.rslides_nav.rslides1_nav:hover,
+.home_type .more_info a:hover,
+.skills .skill div span,
+.resume .date:after,
+.service_content a i:hover,
+a.rslides_nav.prev:hover,
+a.rslides_nav.next:hover,
 .services .font-icon i,
 li.active_filter:after,
 .zoom-anim-dialog a.demo:hover,
 .contact .contact_form .submit:hover {
-    /* background-color: #0B8C07; */
-   background-color: #F2D271;
+    background-color: #00c077;
 }
 
 .contact .contact_form .submit,
-/* .home_type .more_info a:hover, */
+.home_type .more_info a:hover,
 .testimonials .arrows span:hover,
-.fun-facts h4, .item,
+.fun-facts h4,
+.resume .item,
 .services .font-icon i,
 .zoom-anim-dialog a.demo,
 .form-control:focus,
 .contact .contact_form .submit:hover {
-   /*  border-color: #0B8C07; */
-   border-color: #F2D271;
+    border-color: #00c077;
 }
 
 g.Header {
-    /* stroke: #0B8C07; */
-    stroke: #F2D271;
-    
+    stroke: #00c077;
 }
-
 
 .pt-page {
     width: 100%;
@@ -878,7 +880,8 @@ li.active_filter:after {
     position: relative;
 }
 
-a.rslides_nav.rslides1_nav {
+a.rslides_nav.prev,
+a.rslides_nav.next {
     position: absolute;
     top: 45%;
     z-index: 555;
@@ -889,16 +892,17 @@ a.rslides_nav.rslides1_nav {
     -webkit-transition: all 0.3s ease-in-out;
 }
 
-a.rslides_nav.rslides1_nav i {
+a.rslides_nav.prev i,
+a.rslides_nav.next i {
     font-size: 40px;
     line-height: 54px;
 }
 
-a.rslides_nav.rslides1_nav.prev {
+a.rslides_nav.prev {
     left: 0;
 }
 
-a.rslides_nav.rslides1_nav.next {
+a.rslides_nav.next {
     right: 0;
 }
 
@@ -1012,6 +1016,7 @@ a.rslides_nav.rslides1_nav.next {
 
 .contact .contact_form {
     position: relative;
+    cursor: not-allowed;
 }
 
 .contact .form-control {
@@ -1019,19 +1024,23 @@ a.rslides_nav.rslides1_nav.next {
     border-radius: 0;
     padding-top: 18px;
     padding-bottom: 18px;
+    cursor: not-allowed;
 }
 
 .contact .form-control[name="name"] {
     margin-top: 7px;
+    cursor: not-allowed;
 }
 
 .contact textarea.form-control {
     height: 200px;
+    cursor: not-allowed;
 }
 
 .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
+    cursor: not-allowed;
 }
 
 .contact .contact_form .submit {
@@ -1040,6 +1049,7 @@ a.rslides_nav.rslides1_nav.next {
     font-size: 16px;
     border-width: 2px;
     border-style: solid;
+    cursor: not-allowed;
     background: transparent;
     color: #000;
     -webkit-transition: all 0.3s ease-in-out;
