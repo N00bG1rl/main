@@ -21,8 +21,7 @@ October 6, 2018
 
 # View on browser
 
-## [https://n00bg1rl.github.io/main/](https://n00bg1rl.github.io/main/)
-
+## [https://n00bg1rl.github.io/portfolio-web-page/](https://n00bg1rl.github.io/portfolio-web-page/)
 # View as image
 
 ![github](./assets/images/github.png)
